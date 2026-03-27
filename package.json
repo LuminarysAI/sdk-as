@@ -1,0 +1,32 @@
+{
+  "name": "@luminarys/sdk-as",
+  "version": "0.2.0",
+  "description": "AssemblyScript SDK for building Luminarys WASM skills",
+  "main": "index.ts",
+  "types": "index.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuminarysAI/sdk-as"
+  },
+  "homepage": "https://luminarys.ai",
+  "keywords": [
+    "luminarys",
+    "ai-agent",
+    "wasm",
+    "webassembly",
+    "mcp",
+    "sandbox",
+    "assemblyscript",
+    "model-context-protocol"
+  ],
+  "files": [
+    "*.ts",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "assemblyscript": ">=0.27.0"
+  }
+}
